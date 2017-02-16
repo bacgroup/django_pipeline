@@ -1,5 +1,5 @@
 node{
-echo 'hola'
-sh 'date'
-echo 'test'
+        stage('Build'{echo 'Build'}
+        stage('Test'){echo 'Test'}
+        stage('Deploy'){echo 'Deploy'}
 }
