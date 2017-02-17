@@ -1,3 +1,14 @@
 node{
-echo 'hola'
+        stage('Build')
+        {
+                echo 'Build'
+        }
+        stage('Test')
+        {
+                echo 'Test'
+        }
+        stage('Deploy')
+        {
+                echo 'Deploy'
+        }
 }
